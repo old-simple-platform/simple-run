@@ -24,7 +24,7 @@ jobs:
           node-version: 21.5.0
       - uses: pnpm/action-setup@v2
         with:
-          version: 8.13.1
+          version: 8.15.9
           run_install: false
       - uses: erlef/setup-beam@b60baf47530760859821edca21cbcd3a1bd366cd
         with:
